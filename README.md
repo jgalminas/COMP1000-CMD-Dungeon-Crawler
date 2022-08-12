@@ -48,7 +48,7 @@ These are the steps that must be followed in order for the user to start the gam
 <br>*Note: once the game has started you do not need to press <kbd>ENTER</kbd> to register your action.*
 ***
 ## Implementation
-The project follows an object oriented approach and most of the entities in the game are represented by classes and objects. I decided to use object orientation because it made the code more maintainable and easier to understand. Additionally, it made implementing some of the advanced features much easier, for example, the player having to press <kbd> P </kbd> to pick up coins when standing over them, if <kbd> P </kbd> and the player moves the coins remain on the floor.
+The project follows an object oriented approach and most of the entities in the game are represented by classes and objects. I decided to use object orientation because it made the code more maintainable and easier to understand. Additionally, it made implementing some of the advanced features much easier, for example, the player having to press <kbd> P </kbd> to pick up coins when standing over them.
 
 Additionally, I decided to include some abstraction to re-use some of the common properties and functionallity between the player and the monsters, such as, attack, health, position, etc. This may not have a big impact on the project at the moment, but it would be beneficial if the project ever gets bigger.
 
